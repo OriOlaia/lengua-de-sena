@@ -1,6 +1,5 @@
-div {
-  margin: 0;
-  padding: 0;
-  background: red;
+.principal {
+  margin: 20px 10%;
+  padding: 20px 10%;
   color: greenyellow;
 }

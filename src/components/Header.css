@@ -1,5 +1,5 @@
 .header {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -38,4 +38,8 @@
 
 .navbar a:hover::before {
   width: 100%;
+}
+
+a {
+  text-decoration: none;
 }
