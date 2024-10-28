@@ -3,6 +3,7 @@ import "./Footer.css";
 export const Footer = () => {
   return (
     <div className="foo">
+      
       <footer>
         <div className="waves">
           <div className="wave" id="wave1"></div>
@@ -26,23 +27,6 @@ export const Footer = () => {
             <a href="https://instagram.com">
               <ion-icon name="logo-instagram"></ion-icon>
             </a>
-          </li>
-        </ul>
-        <ul className="menu">
-          <li>
-            <a href="#home">Inicio</a>
-          </li>
-          <li>
-            <a href="#about">Acerca de</a>
-          </li>
-          <li>
-            <a href="#curse">Curso</a>
-          </li>
-          <li>
-            <a href="#document">Documentación</a>
-          </li>
-          <li>
-            <a href="#contact">Contacto</a>
           </li>
         </ul>
         <p>

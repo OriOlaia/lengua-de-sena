@@ -1,23 +1,22 @@
-footer {
-  position: absolute;
-  width: 100%;
-  background-color: #fff;
-  min-height: 100px;
-  padding: 20px 50px;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
 .foo {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
   min-height: 100vh;
 }
-footer .social_icon,
-footer .menu {
+footer {
+  position: absolute;
+  width: 100%;
+  background-color: #fff;
+  padding: 20px 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 50vh;
+}
+footer .social_icon {
   position: relative;
   display: flex;
   justify-content: center;
@@ -26,8 +25,7 @@ footer .menu {
   flex-wrap: wrap;
 }
 
-footer .social_icon li,
-footer .menu li {
+footer .social_icon li{
   list-style: none;
 }
 
@@ -41,19 +39,6 @@ footer .social_icon li a {
 
 footer .social_icon li a:hover {
   transform: translateY(-10px);
-}
-
-footer .menu li a {
-  font-size: 1.2rem;
-  color: #000;
-  margin: 0 10px;
-  display: inline-block;
-  transition: 0.5s;
-  text-decoration: none;
-  opacity: 0.75;
-}
-footer .menu li a:hover {
-  opacity: 1;
 }
 footer p {
   color: #000;
