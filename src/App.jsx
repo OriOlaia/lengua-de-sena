@@ -1,5 +1,4 @@
 import { Header } from "./components/Header";
-import { Princip } from "./components/Princip";
 import { Footer } from "./components/Footer";
 
 import Home from "./screens/Home";
@@ -23,9 +22,6 @@ const App = () => {
             <Route path="/contact" element={<Contact/>}/>
           </Routes>
     </BrowserRouter>
-    
-     
-      <Princip />
       <Footer />
     </>
   );

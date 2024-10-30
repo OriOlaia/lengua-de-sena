@@ -1,0 +1,35 @@
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+form{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    color: #fff;
+}
+input, textarea{
+    width: 500px;
+    border-radius: 7px;
+}
+h2{
+    font-size: 30px;
+    color: #fff;
+}
+label{
+    font-size: 20px;
+}
+button{
+    margin-top: 10px;
+    width: 85px;
+    height: 30px;
+    border: #fff;
+    border-radius: 7px;
+    background-color: blue;
+    color: #fff;
+}
